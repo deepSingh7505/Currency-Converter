@@ -12,26 +12,29 @@
     <div class="container">
         <h1> Currency Converter</h1>
         <h3>Enter Amount</h3>
-        <input type="text" name="" id="input">
+          <input class="input" value="1" type="text">
         <div class="f-t">
 
             <div class="from">
-                <label for="">From</label>
-                <img class="img" src="" alt="">
-                <select class="dropdown" name="from" id="sel-from">
+                <label>From</label>
+                <img class="img" src="https://flagsapi.com/IN/flat/64.png" alt="">
+                <select class="dropdown" name="from">
+                    <option value="IND">IND</option>
                 </select>
             </div>
             <div class="to">
-                <label for="">To</label>
-                <img class="img" src="" alt="">
-                <select class="dropdown" name="to" id="sel-to">
-                </select>
+                <label>To</label>
+                <img class="img" src="https://flagsapi.com/US/flat/64.png" alt="">
+                <select class="dropdown" name="to" >
+                                        <option value="USD">USD</option>
+
+                </select> 
             </div>
         </div>
         <div class="output">
             Exchanged Amount
         </div>
-        <button class="btn">Exchange value</button>
+        <button class="btn">Get Exchange value</button>
     </div>
      <script src="codes.js"></script>
     <script src="script.js"></script>

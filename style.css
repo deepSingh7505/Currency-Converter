@@ -18,6 +18,16 @@ body{
     min-height: 100vh;
     background-color: rgb(243, 191, 119);
 }
+.img{
+    width: 40px;
+    height: auto;
+    margin: 5px;
+}
+.from ,.to{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
 .container h1 {
     margin: 5px;
 }
@@ -41,6 +51,7 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px;
+    font-size: 1.2rem;
 }
 .btn{
    margin: 10px;
@@ -49,9 +60,11 @@ body{
    cursor: pointer;
     background-color: magenta;
     border: none;
+    font-size: 1.2rem;
 }
 .dropdown{
     cursor: pointer;
     border-radius: 5px;
     padding: 5px;
+    height: 2rem;
 }
