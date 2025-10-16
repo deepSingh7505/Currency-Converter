@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
         font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-
+overflow: hidden;
 }
 .container{
     border: 2px solid black;
@@ -10,6 +10,7 @@
     text-align: center;
     border-radius: 10px;
     padding: 20px;
+     max-width: 60vw;
 }
 body{
     display: flex;
